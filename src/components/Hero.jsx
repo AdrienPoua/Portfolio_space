@@ -16,11 +16,11 @@ export default function Hero() {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I&apos;m <span className='text-[#915EFF]'>Adrian</span>
+            Adrien <span className='text-[#915EFF]'> POUA</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
+          Passionné par le développement web. <br className='sm:block hidden' />
+            J'aime apprendre & créer.
           </p>
         </div>
       </div>
