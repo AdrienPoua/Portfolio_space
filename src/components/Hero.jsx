@@ -19,8 +19,9 @@ export default function Hero() {
             Adrien <span className='text-[#915EFF]'> POUA</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          Passionné par le développement web. <br className='sm:block hidden' />
-            J'aime apprendre & créer.
+            Passionné par le développement web.{" "}
+            <br className='sm:block hidden' />
+            J&apos;aime apprendre & créer.
           </p>
         </div>
       </div>

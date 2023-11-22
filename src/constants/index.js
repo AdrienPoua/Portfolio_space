@@ -17,12 +17,17 @@ import {
   docker,
   meta,
   starbucks,
+  openclassrooms,
   tesla,
+  google,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  kasa,
+  grimoire,
+  portfolioV1,
 } from "../assets";
 
 export const navLinks = [
@@ -118,7 +123,7 @@ const experiences = [
   {
     title: "Formation dev web",
     company_name: "OpenClassroom BAC+2",
-    icon: meta,
+    icon: openclassrooms,
     iconBg: "#E6DEDD",
     date: "Mars 2023 - Octobre 2023",
     points: [
@@ -129,14 +134,14 @@ const experiences = [
     ],
   },
   {
-    title: "Autodiadacte",
+    title: "Autodidacte",
     company_name: "Internet",
-    icon: meta,
+    icon: google,
     iconBg: "#E6DEDD",
-    date: "Mars 2023 - Present",
+    date: "Octobre 2023 - Present",
     points: [
       "Découverte des bibliothèques populaires",
-      " Développer mes compétences avec nextjs, typescript, threejs, material-ui, redux, docker, express.js, mongodb ",
+      "Développer mes compétences avec nextjs, typescript, threejs, material-ui, redux, docker, express.js, mongodb ",
       "Developper des systèmes d'autentification",
     ],
   },
@@ -171,12 +176,30 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Kasa",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Site de réservation de logements pour des vacances en famille ou entre amis. Frontend uniquement.",
     tags: [
       {
         name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: kasa,
+    source_code_link: "https://github.com/httpMage/Poua_Adrien_6_Kasa_072023",
+    website: "https://httpmage.github.io/Poua_Adrien_6_Kasa_072023/",
+  },
+  {
+    name: "Grimoire",
+    description:
+      "Site de référencement et de notation de livres. Backend uniquement.",
+    tags: [
+      {
+        name: "express.js",
         color: "blue-text-gradient",
       },
       {
@@ -184,54 +207,40 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
         name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
+        color: "orange-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: grimoire,
+    source_code_link:
+      "https://github.com/httpMage/Poua_Adrien_7_Grimoire_082023",
+    website: "https://httpmage.github.io/Poua_Adrien_7_Grimoire_082023/",
   },
   {
-    name: "Trip Guide",
+    name: "Portfolio V1",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "react.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "express.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "AWS",
+        color: "orange-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: portfolioV1,
+    source_code_link: "https://github.com/httpMage/Portfolio",
+    website: "https://www.codebyadrien.fr",
   },
 ];
 

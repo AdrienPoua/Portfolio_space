@@ -9,14 +9,14 @@ import { fadeIn, textVariant } from "../utils/motion";
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt
     glareEnable={true}
-    glareMaxOpacity={0.9}
-    scale={1.5}
+    glareMaxOpacity={0.2}
+    scale={1.1}
     glareColor='lightblue'
     glarePosition='all'
     className='xs:w-[250px] w-full overflow-hidden  rounded-[20px] hover:z-10	'
   >
     <motion.div
-      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+      variants={fadeIn("right", "spring", index * 0.25, 0.75)}
       className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
     >
       <div className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'>
@@ -46,12 +46,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Je suis un jeune développeur web qui utilise TypeScript et JavaScript.{" "}
-        <br />
-        J'aime utiliser des frameworks tels que React, NextJS et Node.js.
-        J'apprends vite pour créer des solutions efficaces. je me concentre
-        essentiellement sur la partie frontend même si j'ai des connaissances en
-        backend.
+        Keep it simple, stupid.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

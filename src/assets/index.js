@@ -30,7 +30,20 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import openclassrooms from "./openclassrooms.png";
+import google from "./google.png";
+import link from "./link.png";
+import kasa from "./kasa.png";
+import grimoire from "./grimoire.png";
+import portfolioV1 from "./portfolioV1.png";
+
 export {
+  grimoire,
+  openclassrooms,
+  portfolioV1,
+  link,
+  kasa,
+  google,
   logo,
   backend,
   creator,
