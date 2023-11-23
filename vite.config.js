@@ -11,5 +11,3 @@ export default defineConfig({
     sourcemap: false, // Désactiver la génération de sourcemap en production (optionnel)
   },
 })
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
