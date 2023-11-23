@@ -219,7 +219,7 @@ const projects = [
   {
     name: "Portfolio V1",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Mon premier portfolio from scratch. Frontend et backend.",
     tags: [
       {
         name: "react.js",

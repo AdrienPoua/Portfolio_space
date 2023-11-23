@@ -14,7 +14,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
-  website
+  website,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.35, 0.75)}>
@@ -83,8 +83,8 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        <p className={`${styles.sectionSubText} `}>Mon travail</p>
+        <h2 className={`${styles.sectionHeadText}`}>Projets.</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -107,4 +107,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "works");
