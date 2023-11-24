@@ -190,8 +190,8 @@ const projects = [
       },
     ],
     image: kasa,
-    source_code_link: "https://github.com/httpMage/Poua_Adrien_6_Kasa_072023",
-    website: "https://httpmage.github.io/Poua_Adrien_6_Kasa_072023/",
+    source_code_link: "https://github.com/AdrienPoua/Poua_Adrien_6_Kasa_072023",
+    website: "https://AdrienPoua.github.io/Poua_Adrien_6_Kasa_072023/",
   },
   {
     name: "Grimoire",
@@ -213,8 +213,8 @@ const projects = [
     ],
     image: grimoire,
     source_code_link:
-      "https://github.com/httpMage/Poua_Adrien_7_Grimoire_082023",
-    website: "https://httpmage.github.io/Poua_Adrien_7_Grimoire_082023/",
+      "https://github.com/AdrienPoua/Poua_Adrien_7_Grimoire_082023",
+    website: "https://AdrienPoua.github.io/Poua_Adrien_7_Grimoire_082023/",
   },
   {
     name: "Portfolio V1",
@@ -239,7 +239,7 @@ const projects = [
       },
     ],
     image: portfolioV1,
-    source_code_link: "https://github.com/httpMage/Portfolio",
+    source_code_link: "https://github.com/AdrienPoua/Portfolio",
     website: "https://www.codebyadrien.fr",
   },
 ];
