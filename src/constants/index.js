@@ -55,11 +55,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Clean code",
     icon: backend,
   },
   {
-    title: "Junior Developer",
+    title: "Never Stop Learning",
     icon: creator,
   },
 ];

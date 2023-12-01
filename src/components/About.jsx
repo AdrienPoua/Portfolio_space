@@ -13,7 +13,7 @@ const ServiceCard = ({ index, title, icon }) => (
     scale={1.1}
     glareColor='lightblue'
     glarePosition='all'
-    className='xs:w-[250px] w-full overflow-hidden  rounded-[20px] hover:z-10	'
+    className='xs:w-[250px] w-full overflow-hidden  rounded-[20px] hover:z-10	m-auto'
   >
     <motion.div
       variants={fadeIn("right", "spring", index * 0.25, 0.75)}
